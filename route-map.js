@@ -1,9 +1,9 @@
 /* Locally rendered schematic; no map tiles, API key, device location or route requests. */
 const ROUTE_DAYS=[
- {label:'12.30',name:'落地 · 银座',color:'#b75243',summary:'成田 → 新宿／新大久保 → 银座 → 酒店',area:'city',city:['base','ginza','base'],region:['narita','tokyo'],mode:'机场铁路 ＋ 市内电车',tip:'第一晚安顿后再去银座，购物与晚餐按体力取舍。'},
- {label:'12.31',name:'漫游 · 跨年',color:'#a77c32',summary:'酒店 → 东京站 → 皇居外苑 → 涩谷 → 原宿 → 酒店；深夜往返明治神宫',area:'city',city:['base','station','palace','shibuya','harajuku','base','meiji','base'],region:['tokyo'],mode:'市内电车 ＋ 步行',tip:'下午回酒店补觉。图中的神宫段是深夜单独出发，非白天一路走到底。'},
- {label:'01.01',name:'箱根 · 山湖',color:'#437d80',summary:'新宿 ⇄ 箱根：汤本 → 强罗 → 大涌谷 → 芦之湖 → 返程',area:'region',city:['base'],region:['tokyo','hakone','tokyo'],mode:'浪漫特快 ＋ 箱根区域交通',tip:'箱根为当日往返，晚上仍住东京；返程按当日船、缆车和巴士运营调整。'},
- {label:'01.02',name:'河口湖 · 富士',color:'#706697',summary:'新宿 ⇄ 河口湖：湖岸／大石公园／缆车，晚回东京换酒店',area:'region',city:['base'],region:['tokyo','kawaguchiko','tokyo'],mode:'富士回游去程 ＋ 高速巴士回程',tip:'河口湖是独立一日往返，不从箱根直接转场；两晚之间都回东京。'},
+ {label:'12.30',name:'落地 · 银座',color:'#b75243',summary:'成田 → 新宿／新大久保 → 晚上的银座 → 酒店',area:'city',city:['base','ginza','base'],region:['narita','tokyo'],mode:'机场铁路 ＋ 市内电车',tip:'先安顿，晚上再去银座。购物和晚餐按体力取舍，正餐不选拉面。'},
+ {label:'12.31',name:'漫游 · 跨年',color:'#a77c32',summary:'酒店 → 东京站 → 皇居外苑 → 涩谷 → 原宿 → 酒店；深夜往返明治神宫',area:'city',city:['base','station','palace','shibuya','harajuku','base','meiji','base'],region:['tokyo'],mode:'市内电车 ＋ 步行',tip:'下午回酒店补觉。跨年仍去明治神宫；图中的神宫段是深夜单独出发。'},
+ {label:'01.01',name:'箱根 · 山湖',color:'#437d80',summary:'新宿 ⇄ 箱根：浪漫特快，汤本 → 强罗 → 大涌谷 → 芦之湖 → 返程',area:'region',city:['base'],region:['tokyo','hakone','tokyo'],mode:'浪漫特快 ＋ 箱根区域交通',tip:'来回都按浪漫特快，晚上仍住东京。1/1 回到新宿即止，不另排银座。'},
+ {label:'01.02',name:'河口湖 · 富士',color:'#706697',summary:'新宿 ⇄ 河口湖：湖岸／大石公园／缆车，晚回东京换酒店',area:'region',city:['base'],region:['tokyo','kawaguchiko','tokyo'],mode:'富士回游去程 ＋ 高速巴士回程',tip:'1/2 必去，也是最接近雪的一天。只有大雪封路或停运才改市区。'},
  {label:'01.03',name:'浅草 · 返程',color:'#50734b',summary:'酒店 → 浅草寺 → 晴空塔 → 浅草取行李 → 成田机场',area:'city',city:['base','asakusa','skytree','asakusa'],region:['tokyo','narita'],mode:'市内电车 ＋ 机场方向列车',tip:'行李按现计划寄存在浅草，去晴空塔后需回取；机场列车另查实际班次。'}
 ];
 const MAP_POINTS={
