@@ -29,3 +29,11 @@
 - 默认展示每日编号顺序图，保留全程／市区位置示意；点编号、上一站／下一站查看对应信息。
 - 顺序图不按地理坐标绘制，不代表已确认班次。箱根运营与河口湖天气替代顺序仍需当天判断。
 - 日期选择与下方每日攻略同步；不新增定位、追踪或个人凭证。
+
+## Google导航链接（v5）
+
+- google-routes.js：按天步行串点、逐段公交/步行、当前站到下一站、复制全天顺序。
+- 遵循Google Maps URLs格式，最多3个中间途经点；公共交通只传起终点，不生成全天驾车替代线。
+- 不调用定位、付费API，不登录或修改Google账户；打开链接才把行程地点发送Google，非实时位置。
+- 链接不指定未来出发时间，用户需在Google中调整旅行日期、时间，并核对地点匹配。
+- 官方文档：https://developers.google.com/maps/documentation/urls/get-started 、 https://support.google.com/maps/answer/144339?hl=en 。
