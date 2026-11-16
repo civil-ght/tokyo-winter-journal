@@ -8,7 +8,7 @@ const LEG_MODES=[
 ];
 const WALK_BUNDLES=[
  [{title:'银座购物候选串点',names:['美登利银座','伊东屋','GINZA SIX','UNIQLO','美登利银座'],places:['Umegaoka Sushi no Midori Ginza Japan','G.Itoya Ginza Japan','GINZA SIX Tokyo Japan','UNIQLO Ginza Japan','Umegaoka Sushi no Midori Ginza Japan'],note:'含3个途经点，是候选购物路线，实际选两家并留意叫号；不是要求全部逛完。'}],
- [{title:'东京站 → 皇居外苑',names:['丸之内站前广场','二重桥'],places:['Tokyo Station Marunouchi Square Japan','Nijubashi Bridge Tokyo Japan'],note:'上午步行段。'},{title:'涩谷 → 猫街 → 原宿',names:['涩谷路口','Hikarie','猫街','竹下通'],places:['Shibuya Scramble Crossing Japan','Shibuya Hikarie Japan','Cat Street Tokyo Japan','Takeshita Street Tokyo Japan'],note:'含2个途经点；午餐与商店停留会增加总时间，下午仍需回酒店。'}],
+ [{title:'赤羽桥 → 增上寺',names:['赤羽桥路口','增上寺'],places:['Akabanebashi Intersection Tokyo Japan','Zojoji Temple Tokyo Japan'],note:'停车场楼梯视排队情况加拍。'},{title:'涩谷购物 → 代代木公园',names:['涩谷中心街','代代木公园'],places:['Shibuya Center Gai Tokyo Japan','Yoyogi Park Tokyo Japan'],note:'购物后散步。'}],
  [{title:'元箱根港 → 箱根神社',names:['元箱根港','箱根神社'],places:['Motohakone Port Japan','Hakone Shrine Japan'],note:'仅湖岸步行段。登山电车、缆车和船必须分别查运营，不能合成全天步行路线。'}],
  [{title:'河口湖站 → 缆车山麓站',names:['河口湖站','全景缆车山麓站'],places:['Kawaguchiko Station Japan','Mt. Fuji Panoramic Ropeway Japan'],note:'只到山麓乘车处，不是步行登山路线。大石公园往返使用下面的公共交通分段。'}],
  [{title:'浅草 → 隅田川 → 晴空塔',names:['浅草站','雷门','浅草寺','吾妻桥','晴空塔'],places:['Asakusa Station Tokyo Japan','Kaminarimon Tokyo Japan','Senso-ji Tokyo Japan','Azumabashi Bridge Tokyo Japan','Tokyo Skytree Japan'],note:'含3个途经点。排队、拍照与上塔另计；上塔后必须回浅草取行李。'}]
